@@ -1,0 +1,175 @@
+﻿@{
+    ViewBag.Title = "Anasayfa";
+}
+
+@Html.Partial("_PartialSlider")
+
+<div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Eğitimlerimiz</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-1.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                        </li>
+                        <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Earth</small>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                            <small>3d</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                        </li>
+                        <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Pakistan</small>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                            <small>4d</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-3.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                        </li>
+                        <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>California</small>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                            <small>5d</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <h2>EĞİTİM PROGRAMLARIMIZ</h2>
+    <p class="w-50 m-auto">
+        Bilişim ve Eğitim sektöründeki köklü geçmişimiz, kurslarını başarıyla tamamlamış yüzlerce öğrenci ve danışmanlık hizmeti sunduğumuz, onlarca kurumsal firma ile eğitim kalitemizi arttırmaya devam ediyoruz.
+    </p>
+</div>
+
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+        <div class="owl-carousel">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../Images/net-core-eticaret-gelistirme-egitimi29.png" class="w-100" />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Kurumsal Asp .Net Core Mvc Web Tasarım/Yazılım Eğitimleri
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">İncele</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Kayıt Ol</button>
+                            </div>
+                            <small class="text-body-secondary">Yazılım</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../Images/react_native_kursu_egitimi_infotechacademy25.png" class="w-100" />
+                    <div class="card-body">
+                        <p class="card-text">React Native İle Mobil Programlama</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">İncele</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Kayıt Ol</button>
+                            </div>
+                            <small class="text-body-secondary">Mobil Programlama</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../Images/aspnetcoemvc16.png" class="img-fluid" />
+                    <div class="card-body">
+                        <p class="card-text">Asp.Net Core İle Web Geliştirme Eğitimi</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">İncele</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Kayıt Ol</button>
+                            </div>
+                            <small class="text-body-secondary">Asp.Net Core</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h3>Neden Infotech Academy?</h3>
+            <h1 class="display-5 fw-bold lh-1 text-body-emphasis">BİLİŞİM EĞİTİMLERİNİN DOĞRU ADRESİ</h1>
+            <p class="lead">İş hayatında aktif olarak kullanılan yazılım araçları ve teknolojiler üzerine eğitimler sunan Infotech Academy, sadece teorik değil uygulamaya yönelik güncel eğitimler vermektedir. Ayrıca öğrenci, yeni mezun ve kariyerini geliştirmek isteyen personellerin en çok ihtiyaç duyduğu bazı sosyal meslek eğitimlerini de gerçekleştiren Infotech Academy, uygulama yönü ile farklılaşmıştır.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <button type="button" class="btn btn-danger btn-lg px-4 me-md-2 fw-bold">Detaylı Bilgi</button>
+            </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="/Images/bgVideo.jpg" alt="" width="720">
+        </div>
+    </div>
+</div>
+
+@Html.Partial("_PartialContact")
+@section style{
+    <link href="../Content/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../Content/owl.theme.default.min.css" rel="stylesheet" />
+}
+@section scripts{
+    <script src="../Scripts/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                nav: true
+            });
+        });
+    </script>
+}

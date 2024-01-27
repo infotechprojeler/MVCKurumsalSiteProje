@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Admin anasayfa";
+}
+
+<h2>Admin anasayfa</h2>
+
+<h3>
+    Resim Yüklemede Dikkat Edilecekler
+</h3>
+
+<ol>
+    <li>Resim yüklenecek ekranda form elementini action, controller ve enctype ekleyerek güncelliyoruz (örneği kategori ekle-düzenlede var)</li>
+    <li>
+        Resim yükleme özelliğine form içerisinde class tan sonra type=file özelliği ekliyoruz ki normal textbox yerine dosya yükleme elemanı olsun.
+    </li>
+    <li>
+        Edit sayfalarında form içerisine id nin altına eski resim verisini tutmak için yine hidden eleman olarak resim özelliği ekliyoruz yoksa güncellemede resim siliniyor.
+    </li>
+    <li>
+        controller da ise post metotlarına yüklenecek resim property sine ne isim verdiysek o isimle httppostedfilebase sınıf örneği ekliyoruz.
+    </li>
+</ol>
