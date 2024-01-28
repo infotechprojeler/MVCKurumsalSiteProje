@@ -7,6 +7,7 @@ using MVCKurumsalSiteProje.Models;
 
 namespace MVCKurumsalSiteProje.Areas.Admin.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         private DatabaseContext db = new DatabaseContext();

@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace MVCKurumsalSiteProje.Areas.Admin.Controllers
 {
+    [Authorize]
     public class SlidesController : Controller
     {
         DatabaseContext context = new DatabaseContext();
