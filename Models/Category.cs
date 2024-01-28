@@ -7,11 +7,11 @@ namespace MVCKurumsalSiteProje.Models
     public class Category : IEntity
     {
         public int Id { get; set; }
-        [Display(Name = "Adı"), StringLength(50), Required]
+        [Display(Name = "Adı"), StringLength(150), Required]
         public string Name { get; set; }
-        [Display(Name = "Açıklama"), StringLength(500)]
+        [Display(Name = "Açıklama"), DataType(DataType.MultilineText)]
         public string Description { get; set; }
-        [Display(Name = "Resim"), StringLength(100)]
+        [Display(Name = "Resim"), StringLength(150)]
         public string Image { get; set; }
         [Display(Name = "Durum")]
         public bool IsActive { get; set; }

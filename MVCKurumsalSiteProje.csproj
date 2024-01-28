@@ -130,7 +130,9 @@
     <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
     <Compile Include="Areas\Blog\BlogAreaRegistration.cs" />
     <Compile Include="Areas\Blog\Controllers\HomeController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="Data\DatabaseContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -139,6 +141,7 @@
     <Compile Include="Models\AdminLoginViewModel.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\HomePageViewModel.cs" />
     <Compile Include="Models\IEntity.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\Slide.cs" />
@@ -248,6 +251,9 @@
     <Content Include="Views\Shared\_PartialSlider.cshtml" />
     <Content Include="Views\Shared\_PartialContact.cshtml" />
     <Content Include="Views\Shared\_PartialFooter.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\Posts\Index.cshtml" />
+    <Content Include="Views\Posts\Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

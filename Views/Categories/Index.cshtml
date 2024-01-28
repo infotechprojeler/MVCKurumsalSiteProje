@@ -1,0 +1,26 @@
+﻿@model Category
+
+@{
+    ViewBag.Title = Model.Name;
+}
+
+<h2>@Model.Name</h2>
+
+<div class="row row-cols-3">
+    @foreach (var item in Model.Posts)
+    {
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Images/@item.Image" />
+                <div class="card-body">
+                    <p class="card-text">
+                        @item.Name
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-body-secondary">@item.Category.Name</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

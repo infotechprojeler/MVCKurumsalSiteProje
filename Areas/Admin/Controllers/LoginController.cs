@@ -24,7 +24,7 @@ namespace MVCKurumsalSiteProje.Areas.Admin.Controllers
             {
                 try
                 {
-                    var kullanici = db.Users.FirstOrDefault(k => k.Email == user.Email && k.Password == user.Password);
+                    var kullanici = db.Users.FirstOrDefault(k => k.Email == user.Email && k.Password == user.Password && k.IsAdmin && k.IsActive);
                     if (kullanici == null)
                     {
                         ModelState.AddModelError("", "Giriş Başarısız!");
@@ -36,7 +36,7 @@ namespace MVCKurumsalSiteProje.Areas.Admin.Controllers
                         {
                             return Redirect(Request.QueryString["ReturnUrl"]); // kullanıcıyı login işleminden sonra gitmek istediği adrese yönlendir
                         }
-                        return RedirectToAction("Index");
+                        return RedirectToAction("Index", "Home");
                     }
                 }
                 catch (Exception)
