@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvckurumsalsiteproje\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\views\\posts\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|solutionrelative:views\\posts\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|solutionrelative:views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49E19884-4A89-49ED-9058-CDE8EB591B23}|MVCKurumsalSiteProje.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Data\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T08:16:18.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T08:16:00.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Views\\Posts\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Posts\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Views\\Posts\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Posts\\Detail.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAiwDwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T09:37:56.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Posts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Posts\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T09:29:12.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T09:25:55.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCKurumsalSiteProje\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T09:03:03.895Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

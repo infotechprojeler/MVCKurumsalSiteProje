@@ -60,6 +60,6 @@ C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\bin\System.Web.Optim
 C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\bin\Antlr3.Runtime.pdb
 C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\obj\Debug\MVCKurumsalSiteProje.csproj.AssemblyReference.cache
 C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\obj\Debug\MVCKurumsalSiteProje.csproj.CoreCompileInputs.cache
-C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\obj\Debug\MVCKurumsalSiteProje.csproj.CopyComplete
 C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\obj\Debug\MVCKurumsalSiteProje.dll
 C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\obj\Debug\MVCKurumsalSiteProje.pdb
+C:\Users\Infotech Academy\source\repos\MVCKurumsalSiteProje\obj\Debug\MVCKurum.CA4C6A9B.Up2Date

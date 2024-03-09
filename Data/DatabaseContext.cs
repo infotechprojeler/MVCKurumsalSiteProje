@@ -8,6 +8,7 @@ namespace MVCKurumsalSiteProje.Data
         public DatabaseContext()
             : base("name=DatabaseContext")
         {
+            //Database.SetInitializer(new Category());
         }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Contact> Contacts { get; set; }
